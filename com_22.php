@@ -9,22 +9,22 @@
     </style>
     <pre style="font-family:TLWGTypewriter;font-size:50px;">
         <?php echo "\n";
-            for ($nick=1; $nick <= 5; $nick++)
+            for ($com=1; $com <= 5; $com++)
             {
                 echo ("*");
-                for ($jakkapat=2; $jakkapat <= $nick; $jakkapat++)
+                for ($jakkapat=2; $jakkapat <= $com; $jakkapat++)
                 {
                     echo ("  ");
                 }
-                for ($jakkapat=$nick; $jakkapat <= 5; $jakkapat++)
+                for ($jakkapat=$com; $jakkapat <= 5; $jakkapat++)
                 {
-                    echo ($nick);
+                    echo ($com);
                 }
-                for ($jakkapat=$nick; $jakkapat <= 4; $jakkapat++)
+                for ($jakkapat=$com; $jakkapat <= 4; $jakkapat++)
                 {
-                    echo ($nick);
+                    echo ($com);
                 }
-                for ($jakkapat=2; $jakkapat <= $nick; $jakkapat++)
+                for ($jakkapat=2; $jakkapat <= $com; $jakkapat++)
                 {
                     echo ("  ");
                 }
